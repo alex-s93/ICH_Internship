@@ -1,0 +1,6 @@
+# .gitlint
+[general]
+ignore = body-is-missing
+
+[title-match-regex]
+regex = (feat|fix|docs|style|refactor|test|chore): .*

@@ -1,0 +1,21 @@
+[flake8]
+plugins = flake8_black
+ignore = E203, E266, E501, W503, F403, F401
+per-file-ignores =
+    */__init__.py: F401
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    build,
+    dist,
+    .venv,
+    venv,
+    .tox,
+    templates,
+    .env,
+    .gitignore,
+    migrations,
+    */migrations/*
+max-complexity = 13
+max-line-length = 79

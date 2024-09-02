@@ -1,0 +1,15 @@
+.env
+documents/
+
+*.log
+*.pot
+*.pyc
+__pycache__/
+.idea/
+
+venv/
+.venv/
+db.sqlite3
+.DS_store
+.coverage
+.tox
